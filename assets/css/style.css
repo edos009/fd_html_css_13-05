@@ -6,5 +6,36 @@
 }
 
 :root{
-  
+
+}
+
+body{
+  background-color: bisque;
+}
+
+h1::selection{
+  color: teal
+}
+
+p{
+  padding: 5px;
+
+  color: gray;
+
+  font-size: 16px;
+  line-height: 1.2em;
+  text-indent: 1em;
+}
+
+p::first-letter{
+  color: orange;
+
+  font-size: 20px;
+  line-height: 1.2em;
+  text-shadow: 3px 3px 1px rgba(194, 190, 56, 0.73);
+}
+
+p::first-line{
+  color: blue;
+  background-color: violet;
 }
